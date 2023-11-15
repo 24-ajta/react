@@ -13,6 +13,8 @@ import Home from './components/Home';
 import About from './components/About';
 import Dashboard from './components/Dashboard';
 import UseEffectComponent from './components/UseEffectComponent';
+import UseContextComponent from './components/useContext/UseComponent';
+import MainComponent from './components/useContext/MainComponent';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -42,7 +44,9 @@ function App() {
      {/* data */}
      {/* Some changes */}
       {/* Some more changes... */}
-      <UseEffectComponent/>
+      {/* <UseEffectComponent/> */}
+      {/* <UseContextComponent/> */}
+      <MainComponent/>
     </>
   )
 }
