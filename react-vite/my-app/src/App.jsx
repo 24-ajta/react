@@ -15,7 +15,8 @@ import Dashboard from './components/Dashboard';
 import UseEffectComponent from './components/UseEffectComponent';
 import UseContextComponent from './components/useContext/UseComponent';
 import MainComponent from './components/useContext/MainComponent';
-
+import UseReduceCounter from './components/usereducer/UseReducerComponent';
+import UseCallbackComponent from './components/usecallback/UseCallbackComponent';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -46,7 +47,9 @@ function App() {
       {/* Some more changes... */}
       {/* <UseEffectComponent/> */}
       {/* <UseContextComponent/> */}
-      <MainComponent/>
+      {/* <MainComponent/> */}
+      {/* <UseReduceCounter/> */}
+      <UseCallbackComponent/>
     </>
   )
 }
