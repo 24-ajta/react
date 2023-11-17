@@ -15,10 +15,10 @@ const counterReducer = (state,action)=>{
 const initialstate = {count:0};
 
 function UseReduceCounter(){
-    const [state,dispatch] =useReducer(counterReducer,initialstate)//two parameters inside usereducer first is a function another is an initialstate
+    const [state,dispatch] = useReducer(counterReducer,initialstate)//two parameters inside usereducer first is a function another is an initialstate
         return (
             <>
-            <p>Count: {state.count}</p>
+            <p> Count: {state.count}</p>
             <button onClick={()=> dispatch({type:'INCREMENT'})}>Increment</button>
             <button onClick={()=> dispatch({type:'DECREMENT'})}>Decrement</button>
             </>

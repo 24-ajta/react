@@ -17,6 +17,7 @@ import UseContextComponent from './components/useContext/UseComponent';
 import MainComponent from './components/useContext/MainComponent';
 import UseReduceCounter from './components/usereducer/UseReducerComponent';
 import UseCallbackComponent from './components/usecallback/UseCallbackComponent';
+import UseMemoComponent from './components/useMemu/UseMemuComponent';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -49,7 +50,8 @@ function App() {
       {/* <UseContextComponent/> */}
       {/* <MainComponent/> */}
       {/* <UseReduceCounter/> */}
-      <UseCallbackComponent/>
+      {/* <UseCallbackComponent/> */}
+      <UseMemoComponent/>
     </>
   )
 }
