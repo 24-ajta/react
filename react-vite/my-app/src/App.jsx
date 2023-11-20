@@ -18,6 +18,8 @@ import MainComponent from './components/useContext/MainComponent';
 import UseReduceCounter from './components/usereducer/UseReducerComponent';
 import UseCallbackComponent from './components/usecallback/UseCallbackComponent';
 import UseMemoComponent from './components/useMemu/UseMemuComponent';
+import MyComponentWithUpperCase from './components/higherorder/HigherOrderComponent';
+import AxiosComponent from './axios/AxiosComponent';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -51,7 +53,9 @@ function App() {
       {/* <MainComponent/> */}
       {/* <UseReduceCounter/> */}
       {/* <UseCallbackComponent/> */}
-      <UseMemoComponent/>
+      {/* <UseMemoComponent/> */}
+      {/* <MyComponentWithUpperCase text={"hello world"}/> */}
+      <AxiosComponent/>
     </>
   )
 }

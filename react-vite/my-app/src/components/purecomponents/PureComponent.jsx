@@ -16,7 +16,7 @@ function ParentComponent(){
     const [count,setCount] = useState(1);
     return(
         <>
-        <Childcomponent message={"hello woeld"}/>
+        <Childcomponent message={"hello world"}/>
         <p>
             Count:{count}
         </p>
